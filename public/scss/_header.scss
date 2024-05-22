@@ -1,0 +1,49 @@
+@import 'variables';
+
+.section_header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+
+    .web {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        margin-left: 4vh;
+        margin-right: 4vh;
+
+        .logo {
+            img {
+                    width: 100px;
+                }
+        }
+        .nav { 
+            align-content: center;
+            ul { display: flex;
+                 list-style: none;
+                 margin: 0;
+                 padding: 0;
+                li {
+                    a {
+                        color: $font-color;
+                        font-weight: 500;
+                        font-size: 110%;
+                        text-decoration: none;
+                        letter-spacing: -0.07rem;
+                    }
+                    .medium {
+                        padding: 2rem;
+                    }
+                }
+            }
+        }
+        
+
+    }
+
+    
+}

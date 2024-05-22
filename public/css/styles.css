@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/chillax");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/chillax");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/chillax");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/chillax");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Chillax", sans-serif;
+}
+
+.section_header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header .web {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 4vh;
+  margin-right: 4vh;
+}
+header .web .logo img {
+  width: 100px;
+}
+header .web .nav {
+  align-content: center;
+}
+header .web .nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header .web .nav ul li a {
+  color: #141414;
+  font-weight: 500;
+  font-size: 110%;
+  text-decoration: none;
+  letter-spacing: -0.07rem;
+}
+header .web .nav ul li .medium {
+  padding: 2rem;
+}
+
+.section_footer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: end;
+}
+
+footer {
+  background-color: #f7f6f5;
+}
+footer .footer {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+  margin-left: 4vh;
+  margin-right: 4vh;
+  margin-bottom: 4vh;
+}
+footer .footer .info_footer a {
+  color: #141414;
+  text-decoration: none;
+}
+footer .footer .footer_social ul {
+  list-style: none;
+}
+footer .footer .footer_social ul li a {
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+  font-size: 80%;
+  color: #141414;
+  text-decoration: none;
+}
+footer .copyright {
+  margin-left: 10%;
+}
+footer .title {
+  letter-spacing: -0.2rem;
+  font-weight: 500;
+  font-size: 200%;
+}
+footer .text {
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+  font-size: 80%;
+}
+footer .credits {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4vh;
+  margin-right: 4vh;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+  opacity: 0.5;
+}
+footer .footer_logo {
+  margin-left: 4vh;
+  margin-right: 4vh;
+}
+footer .footer_logo img {
+  width: 1300px;
+  opacity: 0.06;
+}
+
+/*# sourceMappingURL=styles.css.map */
