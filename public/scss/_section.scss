@@ -1,0 +1,24 @@
+@import 'variables';
+
+.section_section {
+    display: flex;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+    border-top: 1px solid gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section_1, .section_2, .section_3 {
+    justify-content: right;
+    letter-spacing: $font-spacing-title;
+    font-weight: $font-bold-title;
+    font-size: $font-size-title;
+    color: $font-color;
+    
+}

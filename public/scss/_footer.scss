@@ -50,9 +50,9 @@ footer {
     }
 
     .title {
-        letter-spacing: -0.2rem;
-        font-weight: 500;
-        font-size: 200%;
+        letter-spacing: $font-spacing-title;
+        font-weight: $font-bold-title;
+        font-size: $font-size-title;
     }
 
     .text {
